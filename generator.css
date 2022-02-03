@@ -1,0 +1,60 @@
+*{
+    background-color:rgb(131, 201, 108);
+}
+
+#text{
+    color:#502 ;
+    font-weight: bolder;
+    text-decoration: cadetblue underline 2px;
+}
+#head>h1{
+    color: rgb(5, 74, 50);
+    font-weight: bolder;
+    text-shadow: rgb(28, 167, 49) 11px 3px 2px;
+}
+#input1{
+    width:250px;
+    height: 25px;
+    border: rgb(45, 172, 86) 9px  ridge;
+    color: black;
+    background-color: seashell;
+    
+    
+}
+#input2{
+    width:250px;
+    height: 25px;
+    border: rgb(45, 172, 86) 9px ridge;
+    color: black;
+    background-color: seashell;
+    
+}
+#results{
+    width: 155px;
+    height:38px;
+    border: seashell 3px solid;
+    border-radius: 20px;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    font-family: cursive;
+    background-color: rgb(21, 157, 48);
+}
+#display{
+    font-size: 40px;
+    font-weight:bold ;
+}
+@media(max-width:360px){
+    #head>h1{
+        font-size: 28px;
+        text-decoration:rgb(173, 228, 209) 3px underline;
+        
+    }
+    #display{
+        font-size: 20px;
+        font-family: cursive;
+        font-weight: bolder;
+        
+    }
+}
+
